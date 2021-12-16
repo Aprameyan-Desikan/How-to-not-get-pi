@@ -1,2 +1,4 @@
 # How to not get pi
-Inspired by Grant Sanderson's video on the surprsing (not so surprising once the physics is known) occurence of the digits of $\pi$ in a simple collision problem. Used C++ 
+Inspired by Grant Sanderson's [video](https://www.youtube.com/watch?v=HEfHFsfGXjs) on the surprsing (not so surprising once the physics is known) occurence of the digits of $\pi$ in a simple collision problem using C++. 
+
+The idea of the problem is simple. We have two blocks one after the other next to a wall. Say the block next to the wall is Block 1 and the other one be Block 2. Now we send Block 2 with some velocity towards 1. The collision results in 1 moving towards the wall. Note that all collisions are elastic. Block 1 would just have its direction reversed and would go on to collide with Block 2 again. Now depending on the weights of the blocks involved, this process can take place any number of times but what's surprising is that the number of times they collide seems to give us a certain number of significance for specific ratios of their weights. That number turns out to be the digits of $\pi$.
